@@ -4,14 +4,14 @@ var quiz = {
     // Q = QUESTION, O = OPTIONS, A = CORRECT ANSWER
     data: [
       {
-        q: "What is the standard distance between the target and archer in Olympics?",
+        q: "1 De qui és l’al·legoria “ El Mite de la Caverna” ?",
         o: [
-          "50 meters",
-          "70 meters",
-          "100 meters",
-          "120 meters"
+          "Platón",
+          "Sòcrates",
+          "Aristòteles",
+          "Tales de Mileto"
         ],
-        a: 1 // arrays start with 0, so answer is 70 meters
+        a: 0 // arrays start with 0, so answer is 70 meters
       },
       {
         q: "Which is the highest number on a standard roulette wheel?",
