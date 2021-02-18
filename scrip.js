@@ -121,6 +121,7 @@ var quiz = {
         this.classList.add("correct");
       } else {
         this.classList.add("wrong");
+        document.getElementById("textoCorrecto").style.display = "block";
       }
   
       // (D3) NEXT QUESTION OR END GAME
@@ -139,6 +140,7 @@ var quiz = {
           document.getElementById("next").innerHTML = "";
           document.getElementById("next").style.display = "none";
         }
+        document.getElementById("textoCorrecto").style.display = "none";
       }
     }
   

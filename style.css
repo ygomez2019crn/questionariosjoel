@@ -56,4 +56,8 @@
 
   #textoCorrecto{
     margin: auto;
+    width: 500px;
+    text-align: center;
+    background-color: green;
+    display: none;
   }
