@@ -11,7 +11,7 @@ var quiz = {
           "3) Aristòteles",
           "4) Tales de Mileto"
         ],
-        a: 0 // arrays start with 0, so answer is 70 meters
+        a: 1 // arrays start with 0, so answer is 70 meters
       },
       {
         q: "Quin signe ortogràfic s’utilitza per marcar la pausaentre dos oracions d’un mateix paràgrafamb un significat relacionat?",
