@@ -6,10 +6,10 @@ var quiz = {
       {
         q: "1 De qui és l’al·legoria “ El Mite de la Caverna” ?",
         o: [
-          "Platón",
-          "Sòcrates",
-          "Aristòteles",
-          "Tales de Mileto"
+          "a) Platón",
+          "b) Sòcrates",
+          "c) Aristòteles",
+          "d) Tales de Mileto"
         ],
         a: 0 // arrays start with 0, so answer is 70 meters
       },

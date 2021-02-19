@@ -1,63 +1,76 @@
-/* (A) WRAPPER */
-#quizWrap {
-    max-width: 600px;
-    margin: 250px auto 0 auto;
-  }
-  
-  /* (B) QUESTION */
-  #quizQn {
-    padding: 20px;
-    background: #4c93ba;
-    color: #fff;
-    font-size: 24px;
-    border-radius: 10px;
-  }
-  
-  /* (C) ANSWERS */
-  #quizAns {
-    margin: 10px 0;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10px;
-  }
-  #quizAns input[type=radio] { display: none; }
-  #quizAns label {
-    background: #fafafa;
-    border: 1px solid #eee;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 20px;
-    cursor: pointer;
-    text-align: center;
-  }
-  #quizAns label.correct {
-    background: #d8ffc4;
-    border: 1px solid #60a03f;
-  }
-  #quizAns label.wrong {
-    background: #ffe8e8;
-    border: 1px solid #c78181;
-  }
-  
-  /* (D) BODY... DOES NOT QUITE MATTER */
-  html, body {
-    background: #74b6db; 
-    font-family: arial, sans-serif;
-  }
-  
-  #next{
-    width: 100px;
-    height: 35px;
-    text-align: center;
-    line-height: 40px;
-    margin: 50px auto;
-    background-color: red;
-  }
 
-  #textoCorrecto{
-    margin: auto;
-    width: 500px;
-    text-align: center;
-    background-color: green;
-    display: none;
-  }
+/* (B) QUESTION */
+#quizQn {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: .1px;
+  line-height: 24px;
+  color: #202124;
+  font-weight: 400;
+  width: 100%;
+  word-break: break-word;
+}
+
+/* (C) ANSWERS */
+#quizAns {
+  margin: 10px 0;
+  width: 100%;
+  min-height: 80px;
+}
+
+#quizAns input[type=radio] { display: none;}
+
+#quizAns label {
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px;
+  display: block;
+  padding: 5px;
+}
+#quizAns label.correct {
+  background: #d8ffc4;
+  border: 1px solid #60a03f;
+}
+#quizAns label.wrong {
+  background: #ffe8e8;
+  border: 1px solid #c78181;
+}
+
+/* (D) BODY... DOES NOT QUITE MATTER */
+html, body {
+  font-family: arial, sans-serif;
+  background-color: #f0ebf8;
+}
+
+#next{
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  line-height: 40px;
+  margin: 15px auto;
+  background-color: red;
+}
+
+#textoCorrecto{
+  margin: auto;
+  width: 500px;
+  text-align: center;
+  background-color: green;
+  display: none;
+}
+
+.questionariLink{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+#quizWrap{
+margin: 100px  auto 0 auto;
+max-width: 550px;
+min-height: 100px;
+border: 1px solid #dadce0;
+border-radius: 8px;
+background-color: white;
+padding: 15px 30px;
+}
