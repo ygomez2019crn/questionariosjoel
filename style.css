@@ -53,11 +53,14 @@ html, body {
 
 #textoCorrecto{
   margin: auto;
-  width: 500px;
-  text-align: center;
-  background-color: #cc7722;
-  display: none;
+  width: 100px;
   height: 100px;
+  text-align: center;
+  background-color: yellow;
+  display: none;
+  font-size: 20px;
+  line-height: 100px;
+  
 }
 
 .questionariLink{
