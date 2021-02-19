@@ -39,7 +39,7 @@
 /* (D) BODY... DOES NOT QUITE MATTER */
 html, body {
   font-family: arial, sans-serif;
-  background-color: #f0ebf8;
+  background-color: #121212;
 }
 
 #next{
@@ -55,8 +55,9 @@ html, body {
   margin: auto;
   width: 500px;
   text-align: center;
-  background-color: green;
+  background-color: #cc7722;
   display: none;
+  height: 100px;
 }
 
 .questionariLink{
