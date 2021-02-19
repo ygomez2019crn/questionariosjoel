@@ -11,7 +11,7 @@ var quiz = {
           "3) Aristòteles",
           "4) Tales de Mileto"
         ],
-        a: 1 // arrays start with 0, so answer is 70 meters
+        a: 0 // arrays start with 0, so answer is 70 meters
       },
       {
         q: "Quin signe ortogràfic s’utilitza per marcar la pausaentre dos oracions d’un mateix paràgrafamb un significat relacionat?",
@@ -21,7 +21,7 @@ var quiz = {
           "3) Dos punts",
           "4)Punt i seguit"
         ],
-        a: 4
+        a: 3
       },
       {
         q: "Quan una matèria en forma gasosa passa a forma liquida,es denomina?",
@@ -31,7 +31,7 @@ var quiz = {
           "3) Solidificació",
           "4) Condensació"
         ],
-        a: 4
+        a: 3
       },
       {
         q: "Quan es parla del ponent, amb qui punt cardinales correspon?",
@@ -41,7 +41,7 @@ var quiz = {
           "3) Oest",
           "4) Sud"
         ],
-        a: 3
+        a: 2
       },
       {
         q: "En quin mes de l’any el sol es troba més a propde la terra?",
@@ -51,7 +51,7 @@ var quiz = {
           "3) Març",
           "4) Desembre"
         ],
-        a: 4
+        a: 3
       },
       {
         q: "La comarca de la Segarra es troba en la provínciade:",
@@ -61,7 +61,7 @@ var quiz = {
           "3) Lleida",
           "4) Girona"
         ],
-        a: 3
+        a: 2
       },
       {
         q: "La capa exterior de la pell del cos humà es diu:",
@@ -71,7 +71,7 @@ var quiz = {
           "3) Epidermis",
           "4) Teixit adipós"
         ],
-        a: 3
+        a: 2
       },
       {
         q: "Quina és la branca de la Biologia que estudia elsanimals?",
@@ -81,7 +81,7 @@ var quiz = {
           "3) Zoologia",
           "4) Antropologia"
         ],
-        a: 3
+        a: 2
       },
       {
         q: "Quan es va donar per acabada la Segona GuerraMundial?",
@@ -91,7 +91,7 @@ var quiz = {
           "3) 1939",
           "4) 1945"
         ],
-        a: 4
+        a: 3
       },
       {
         q: "Quants kilograms són una tona?",
@@ -101,7 +101,7 @@ var quiz = {
           "3) 100.000 kilograms",
           "4) 100 kilograms"
         ],
-        a: 1
+        a: 0
       },
       {
         q: "On es troba el castell de Sant’Angelo?",
@@ -111,7 +111,7 @@ var quiz = {
           "3) Venècia ",
           "4) Florència"
         ],
-        a: 2
+        a: 1
       },
       {
         q: "En quin any es va dissoldre la Unió Soviètica?",
@@ -121,7 +121,7 @@ var quiz = {
           "3) 1993 ",
           "4) 1990 "
         ],
-        a: 1
+        a: 0
       },
       {
         q: "Quan parlem de “lacra” estem dient que és",
@@ -131,7 +131,7 @@ var quiz = {
           "3) Un defecte",
           "4) Totes son correctes"
         ],
-        a: 3
+        a: 2
       },
       {
         q: "Calcula l’àrea d’una circumferència de 6 m de diàmetre ? ",
@@ -141,7 +141,7 @@ var quiz = {
           "3) 28,78 m ",
           "4) 26,26 m "
         ],
-        a: 1
+        a: 0
       },
       {
         q: "Quina branca de la biologia estudia la interrelació dels éssers vius i el medi ambient?",
@@ -151,7 +151,7 @@ var quiz = {
           "3) Botànica ",
           "4) Filogènia "
         ],
-        a: 2
+        a: 1
       },
       {
         q: "Quant sumen els angles d’un triangle? ",
@@ -161,7 +161,7 @@ var quiz = {
           "3) 180 graus",
           "4) 360 graus"
         ],
-        a: 3
+        a: 2
       },
       {
         q: "Qui ha estat guanyador/guanyadora del Premi Planeta 2020? ",
@@ -171,7 +171,7 @@ var quiz = {
           "3) Santiago Posteguillo ",
           "4) Dolores Redondo "
         ],
-        a: 2
+        a: 1
       },
       {
         q: "En quin continent es troba Groenlàndia? ",
@@ -181,7 +181,7 @@ var quiz = {
           "3) Amèrica ",
           "4) Àfrica "
         ],
-        a: 3
+        a: 2
       },
       {
         q: "Quina és la capital de Turquia? ",
@@ -191,7 +191,7 @@ var quiz = {
           "3) Ankara ",
           "4) Bursa "
         ],
-        a: 3
+        a: 2
       },
       {
         q: "Els cercles imaginaris que envolten la terra sense passar pels pols, s’anomenen:",
@@ -201,7 +201,7 @@ var quiz = {
           "3) Paral·lels ",
           "4) Tròpics "
         ],
-        a: 3
+        a: 2
       },
       {
         q: "On es pot veure l’escultura original de David, de Miguel Angel? ",
@@ -211,7 +211,7 @@ var quiz = {
           "3) Paris",
           "4) Londres "
         ],
-        a: 2
+        a: 1
       },
       {
         q: "Quin tipus d’instrument musical és la cítara? ",
@@ -221,7 +221,7 @@ var quiz = {
           "3) De corda",
           "4) Electric "
         ],
-        a: 3
+        a: 2
       },
       {
         q: "Quants lustres passen en un segle? ",
@@ -231,7 +231,7 @@ var quiz = {
           "3) 30",
           "4) 50"
         ],
-        a: 2
+        a: 1
       },
       {
         q: "De 750 sancions de transit 45 són per excés de velocitat. Que percentatge suposa les sancions per excés de velocitat ? ",
@@ -241,7 +241,7 @@ var quiz = {
           "3) 6,0%",
           "4) 5,4%"
         ],
-        a: 3
+        a: 2
       },
       {
         q: "On es va celebrar el darrer campionat del món de futbol?. ",
@@ -251,7 +251,7 @@ var quiz = {
           "3) Alemanya ",
           "4) Croàcia "
         ],
-        a: 1
+        a: 0
       },
       {
         q: "Quin jugador de la NBA fou parella durant una temporada de la popular Kim Kardashian?",
@@ -261,7 +261,7 @@ var quiz = {
           "3) Kris Humphries ",
           "4) LeBron Lames "
         ],
-        a: 3
+        a: 2
       },
       {
         q: "Quin és el país que té 5 títols mundials de futbol?",
@@ -271,7 +271,7 @@ var quiz = {
           "3) Brasil ",
           "4) Anglaterra "
         ],
-        a: 3
+        a: 2
       },
       {
         q: "Qui és l’actual conseller/a d’Interior de la Generalitat de Catalunya?",
@@ -281,7 +281,7 @@ var quiz = {
           "3) Miquel Sàmper",
           "4) Alba Vergés "
         ],
-        a: 3
+        a: 2
       },
       {
         q: "Quin és el símbol químic de l’or? ",
@@ -291,7 +291,7 @@ var quiz = {
           "3) Os ",
           "4) Au "
         ],
-        a: 4
+        a: 3
       },
       {
         q: "En quin país es troba la ciutat de Calcuta? ",
@@ -301,7 +301,7 @@ var quiz = {
           "3) Índia ",
           "4) Indonesia "
         ],
-        a: 3
+        a: 2
       },
       {
         q: "Com s’anomena el resultat d’una divisió ? ",
@@ -311,7 +311,7 @@ var quiz = {
           "3) Quocient ",
           "4) Residu"
         ],
-        a: 3
+        a: 2
       },
       {
         q: "En quin museu es troba el quadre conegut com “La mona lisa” ",
@@ -321,7 +321,7 @@ var quiz = {
           "3) Museu d’Art Mod",
           "4) Museu del Louvre "
         ],
-        a: 4
+        a: 3
       },
       {
         q: "Quin d’aquests edificis modernistes no és d’ Antoni Gaudi? ",
@@ -331,7 +331,7 @@ var quiz = {
           "3) Casa Vicens ",
           "4) Casa Batlló "
         ],
-        a: 1
+        a: 0
       },
       {
         q: "En la mitologia romana, com es diu el deu de l’univers? ",
@@ -341,7 +341,7 @@ var quiz = {
           "3) Zeus ",
           "4) Apol·lo "
         ],
-        a: 2
+        a: 1
       },
       {
         q: "Quin va ser l’indret on es van crear els Jocs Olímpics? ",
@@ -351,7 +351,7 @@ var quiz = {
           "3) A Olímpia ",
           "4) A l’illa de Creta "
         ],
-        a: 3
+        a: 2
       },
       {
         q: "Quina mesura s’utilitza per a mesurar la intensitat del so ? ",
@@ -361,7 +361,7 @@ var quiz = {
           "3) Pascal ",
           "4) Newton "
         ],
-        a: 1
+        a: 0
       },
       {
         q: "Per què va rebre Nelson Mandela el Premi Nobel de la Pau?",
@@ -371,7 +371,7 @@ var quiz = {
           "3) Pel seu treball per la lluita per la igualtat racial i el final pacífic del règim d’apartheid ",
           "4) Pels seus esforços per la democràcia i els drets humans, especialment de les dones i els infants "
         ],
-        a: 3
+        a: 2
       },
       {
         q: "Com s’anomena al procediment de pujar la bandera? ",
@@ -381,7 +381,7 @@ var quiz = {
           "3) Aixecar ",
           "4) Alçar"
         ],
-        a: 2
+        a: 1
       }
     ],
   
