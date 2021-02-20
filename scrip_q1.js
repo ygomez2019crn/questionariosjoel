@@ -472,7 +472,7 @@ var quiz = {
           document.getElementById("textoCorrecto").style.display = "none";
          }
         else {
-          quiz.hQn.innerHTML = `${quiz.score} de ${quiz.data.length} eres malisimo gay. w̷̢̮̻̐̇͠ͅh̸͈̆̿̅̈̿̐̈͐̈́̊̄e̵̢̱̺̖̣̣̻̲͎̅͛̍̈̓́͗͗́̇͝͠ͅr̶̘̪͕̻͖̤̦̱̹̭̜͑͊̍̓̽̾̑̀̇̃̐͘͠ͅs̷̡͇͖̯̘̺̟̗͚͔̪̬͂͆̔͋͠ĝ̸̛̲̎͆̿̽̓̑͗͗̅͊̎`;
+          quiz.hQn.innerHTML = `${quiz.score} de ${quiz.data.length}`;
           quiz.hAns.innerHTML = "";
           document.getElementById("next").innerHTML = "";
           document.getElementById("next").style.display = "none";
